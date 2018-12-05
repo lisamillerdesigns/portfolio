@@ -1,0 +1,176 @@
+*
+{
+margin:0;
+padding: 0;
+}
+
+
+header
+{
+    background-image: url(Iphone-mocukp-02.jpg);
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+
+.wholerow
+{
+     height: 100%; 
+     width: 350px;
+    display: block;
+    position: absolute;
+    background-color: rgba(255,255,255,0.9);
+}
+.row
+{
+   
+    
+    display: block;
+   
+    
+}
+
+.whitebox
+{
+    background-color: none;
+    width: 300px;
+    height: 200px;
+}
+
+
+.logo
+{
+    color: rgb(69,77,119);
+    padding: 20px;
+    text-decoration: none;
+    background-color: none;
+    width: 320px;
+}
+
+
+ .logo a
+{
+     font-family: "Helvetica", sans-serif;
+    color: dimgrey;
+    font-weight: 800;
+    font-size: 80px;
+    color: rgb(69,77,119);
+    text-decoration: underline;
+    line-height: 85px;
+}
+
+.main-nav
+{
+    background-color: none;
+    float:left;
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 20px;
+    
+}
+
+.main-nav li
+{
+    display: block;
+    float: left;
+    position:relative;
+}
+
+.main-nav li a
+{
+    display: block;
+    color: rgb(130,130,130);
+    padding: 14px 2px;
+    font-family: "Helvetica", sans-serif;
+    letter-spacing:2px;
+    text-decoration: none;
+    line-height: normal;
+    font-weight: 900;
+    font-size: 16px;
+
+  
+}
+
+
+
+...main-nav li.active a 
+{
+   border-bottom: 1px solid dimgrey;
+}
+
+.main-nav li ul
+{
+   /*...display: none;*/
+    position: absolute;
+    /*background-color: rgba(255,255,255,0.8);
+    */
+    border: none; 
+    padding-bottom: 3px;
+   border-bottom-left-radius: 4px; 
+    border-bottom-right-radius: 4px; 
+     font-size: 12px;
+    letter-spacing:3px;
+}
+
+...main-nav li:hover ul 
+{
+   display: block;
+  
+
+}
+
+.main-nav li ul li a
+{
+   
+    color: dimgrey;
+    padding: 10px 20px 12px 0px;
+     font-size: 12px;
+   
+}
+
+.main-nav li.active ul li a 
+{
+    border: none;
+     font-weight: 600;
+    color: rgb(200,200,200);
+}
+
+.main-nav li ul li a:hover
+{
+   
+    text-decoration: underline;
+    color: rgb(160,211,218);
+    font-weight: 600;
+    
+}
+
+.digital
+{
+    background-color: rgba(255,255,255,0.8);
+    padding: 0px;
+    
+   
+}
+
+.print
+{
+    background-color: rgba(255,255,255,0.8);
+  width: 100%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
